@@ -1,0 +1,112 @@
+{
+    "products": [
+        {
+            "brand": "Lenovo",
+            "categoryId": 1,
+            "cpu": "Intel Core i7-1360P",
+            "name": "Lenovo ThinkPad T14 Gen 4",
+            "price": 2899.0,
+            "quantity": 6,
+            "ramGB": 16,
+            "serialNumber": "TECH-2025-2001",
+            "storageGB": 512,
+            "type": "Laptop"
+        },
+        {
+            "brand": "ASUS",
+            "categoryId": 1,
+            "cpu": "AMD Ryzen 7 7840U",
+            "name": "ASUS ZenBook 14",
+            "price": 2399.0,
+            "quantity": 4,
+            "ramGB": 16,
+            "serialNumber": "TECH-2025-2002",
+            "storageGB": 1024,
+            "type": "Laptop"
+        },
+        {
+            "brand": "HP",
+            "categoryId": 1,
+            "cpu": "Intel Core i5-1240P",
+            "name": "HP ProBook 450 G9",
+            "price": 1799.0,
+            "quantity": 8,
+            "ramGB": 8,
+            "serialNumber": "TECH-2025-2003",
+            "storageGB": 512,
+            "type": "Laptop"
+        },
+        {
+            "brand": "Samsung",
+            "categoryId": 2,
+            "cpu": "Snapdragon 8 Gen 3",
+            "has5G": true,
+            "name": "Samsung Galaxy S24",
+            "price": 1999.0,
+            "quantity": 10,
+            "serialNumber": "TECH-2025-2101",
+            "storageGB": 256,
+            "type": "Phone"
+        },
+        {
+            "brand": "Apple",
+            "categoryId": 2,
+            "cpu": "Apple A16 Bionic",
+            "has5G": true,
+            "name": "iPhone 14 Pro",
+            "price": 2499.0,
+            "quantity": 5,
+            "serialNumber": "TECH-2025-2102",
+            "storageGB": 256,
+            "type": "Phone"
+        },
+        {
+            "brand": "Xiaomi",
+            "categoryId": 2,
+            "cpu": "Snapdragon 8 Gen 2",
+            "has5G": true,
+            "name": "Xiaomi 13",
+            "price": 1499.0,
+            "quantity": 12,
+            "serialNumber": "TECH-2025-2103",
+            "storageGB": 512,
+            "type": "Phone"
+        },
+        {
+            "brand": "Custom",
+            "categoryId": 3,
+            "cpu": "AMD Ryzen 7 5800X",
+            "gpu": "NVIDIA GeForce RTX 4070",
+            "name": "Gaming PC - RTX 4070",
+            "price": 3499.0,
+            "quantity": 2,
+            "ramGB": 32,
+            "serialNumber": "TECH-2025-2201",
+            "type": "DesktopComputer"
+        },
+        {
+            "brand": "Dell",
+            "categoryId": 3,
+            "cpu": "Intel Core i7-12700",
+            "gpu": "Intel UHD Graphics 770",
+            "name": "Dell OptiPlex 7000",
+            "price": 2199.0,
+            "quantity": 3,
+            "ramGB": 16,
+            "serialNumber": "TECH-2025-2202",
+            "type": "DesktopComputer"
+        },
+        {
+            "brand": "Lenovo",
+            "categoryId": 3,
+            "cpu": "Intel Core i5-12400",
+            "gpu": "NVIDIA GeForce GTX 1660 Super",
+            "name": "Lenovo Legion Tower 5",
+            "price": 2399.0,
+            "quantity": 4,
+            "ramGB": 16,
+            "serialNumber": "TECH-2025-2203",
+            "type": "DesktopComputer"
+        }
+    ]
+}
