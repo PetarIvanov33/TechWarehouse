@@ -12,7 +12,7 @@
 #include <windows.h>
 #endif
 
-// ===================== INPUT HELPERS =====================
+
 
 static void clearInput()
 {
@@ -20,7 +20,6 @@ static void clearInput()
     std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 }
 
-// ===================== CONSOLE COLORS (Windows) =====================
 
 #ifdef _WIN32
 static WORD g_defaultAttr = 0;
@@ -55,7 +54,6 @@ static void setColor(int) {}
 static void resetColor() {}
 #endif
 
-// Color presets 
 static void printTitle(const std::string& text)
 {
 #ifdef _WIN32

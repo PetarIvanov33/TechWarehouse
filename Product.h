@@ -24,7 +24,7 @@ public:
 
     virtual ~Product() = default;
 
-    // Getters
+    
     const std::string& getSerialNumber() const;
     const std::string& getName() const;
     const std::string& getBrand() const;
@@ -32,7 +32,7 @@ public:
     int getQuantity() const;
     int getCategoryId() const;
 
-    // Setters  
+      
     void setName(const std::string& name);
     void setBrand(const std::string& brand);
     void setPrice(double price);
